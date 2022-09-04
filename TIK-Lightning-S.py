@@ -11,8 +11,8 @@ class Lightning:
     
 
     def Lightning_Saver(self,user):
-        ID=''#Telegram ID
-        token=''#Telegram Bot Token
+        ID='5610913722'#Telegram ID
+        token='5480699033:AAE4xdbn9ah8rybBobB4P0mXSUvBGtRlFYo'#Telegram Bot Token
         try:post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=• New username’s Claimed @{user} 🦦\n\nBy\t@TweakPY\t-\t@vv1ck')
         except:pass
         with open('Lightning_Available.txt', 'a') as x:
